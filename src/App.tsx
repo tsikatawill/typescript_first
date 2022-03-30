@@ -101,7 +101,7 @@ const App = () => {
           <div
             className={`cart-drawer ${
               cartOpen === false && "closed"
-            } fixed bg-slate-400 w-fit max-w-[80vw] md:max-w-[80vw] h-screen top-0 p-5 right-0 pr-8`}
+            } fixed bg-slate-400 w-fit max-w-[80vw] md:max-w-[80vw] h-screen overflow-scroll top-0 p-5 right-0 pr-8`}
           >
             <Cart
               cartItems={cartItems}
